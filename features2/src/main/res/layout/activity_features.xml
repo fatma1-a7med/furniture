@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features">
+
+    <TextView
+        android:id="@+id/layout3"
+        android:layout_width="168dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#f9f1de"
+        android:textColor="#b59b79"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1" />
+
+    <TextView
+        android:id="@+id/layout1"
+        android:layout_width="164dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:background="#f9f1de"
+        android:textColor="#b59b79"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:text="Products"
+        android:textColor="#4B3028"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="157dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/layout1"
+        app:layout_constraintTop_toTopOf="@+id/layout1"
+        app:srcCompat="@drawable/pro1" />
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Room Chair"
+        android:textColor="#4B3028"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintStart_toStartOf="@+id/layout1"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Modern Room Chair"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintStart_toStartOf="@+id/layout1"
+        app:layout_constraintTop_toBottomOf="@+id/header1" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="700$"
+        android:textColor="#b59b79"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/layout1"
+        app:layout_constraintTop_toBottomOf="@+id/label1" />
+
+    <TextView
+        android:id="@+id/layout2"
+        android:layout_width="164dp"
+        android:layout_height="293dp"
+        android:background="#F9F1DE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toEndOf="@+id/layout1"
+        app:layout_constraintTop_toTopOf="@+id/layout1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="154dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/layout2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/layout2"
+        app:layout_constraintTop_toTopOf="@+id/layout2"
+        app:srcCompat="@drawable/pro2" />
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Arm Chair"
+        android:textColor="#4B3028"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/layout2"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/layout2"
+        app:layout_constraintTop_toBottomOf="@+id/img2" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modern Arm Chair"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout2"
+        app:layout_constraintStart_toStartOf="@+id/layout2"
+        app:layout_constraintTop_toBottomOf="@+id/header2" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="18dp"
+        android:text="400$"
+        android:textColor="#b59b79"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/layout2"
+        app:layout_constraintEnd_toEndOf="@+id/layout2"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/layout2"
+        app:layout_constraintTop_toBottomOf="@+id/label2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="143dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/layout3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layout3"
+        app:srcCompat="@drawable/pro4" />
+
+    <TextView
+        android:id="@+id/header3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Arm Chair"
+        android:textColor="#4B3028"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/layout3"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="@+id/layout3"
+        app:layout_constraintTop_toBottomOf="@+id/img3" />
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Modern arm chair"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout3"
+        app:layout_constraintStart_toStartOf="@+id/layout3"
+        app:layout_constraintTop_toBottomOf="@+id/header3" />
+
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="600$"
+        android:textColor="#b59b79"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout3"
+        app:layout_constraintStart_toStartOf="@+id/layout3"
+        app:layout_constraintTop_toBottomOf="@+id/label3" />
+
+    <TextView
+        android:id="@+id/layout4"
+        android:layout_width="160dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="28dp"
+        android:background="#f9f1de"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toEndOf="@+id/layout3"
+        app:layout_constraintTop_toBottomOf="@+id/layout2" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="152dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/layout4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/layout4"
+        app:layout_constraintTop_toTopOf="@+id/layout4"
+        app:srcCompat="@drawable/pro3" />
+
+    <TextView
+        android:id="@+id/header4"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:text="Chair"
+        android:textColor="#4B3028"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/layout4"
+        app:layout_constraintStart_toStartOf="@+id/layout4"
+        app:layout_constraintTop_toBottomOf="@+id/img4" />
+
+    <TextView
+        android:id="@+id/label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Modern Chair"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout4"
+        app:layout_constraintStart_toStartOf="@+id/layout4"
+        app:layout_constraintTop_toBottomOf="@+id/header4" />
+
+    <TextView
+        android:id="@+id/price4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="700$"
+        android:textColor="#b59b79"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/layout4"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/layout4"
+        app:layout_constraintTop_toBottomOf="@+id/label4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
